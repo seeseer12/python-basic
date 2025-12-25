@@ -1,14 +1,14 @@
 # str1=""""hello"" my name is shishir's bhusal and i am 20 years old"""
 # print(str1)
 # # single doubleand triple are allowed on strings
-# ie. ' " ' and """ """ are alloweds
+# ie. ' " ' and """ """ are allowed
 
 
 
 
 # concatenation
-# a,b='shi','shir'
-# print(a+b)
+a,b='shi','shir'
+print(a+b)
 
 
 # # length of string -> spaces also count
