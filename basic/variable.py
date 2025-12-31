@@ -1,4 +1,4 @@
-# # 
+# # <
 # name='shishir'
 # # print(name)
 # # print(len(name))
@@ -48,19 +48,19 @@
 
 
 # boolean 
-haha=True
-print(haha)
-print(type(haha))
+# haha=True
+# print(haha)
+# print(type(haha))
 # 'its True and False as true and false are invalid in python'
 
 
 
 # none dataype
-n=None
-print(type(n))
-n="tette"
-print(n)
-print(type(n))
+# n=None
+# print(type(n))
+# n="tette"
+# print(n)
+# print(type(n))
 # none for nothing 
 
 
@@ -69,4 +69,3 @@ print(type(n))
 # sumamry: ✅ Variables are dynamically typed, so x can be a float at one moment and an int the next.
     
 
-    
