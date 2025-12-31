@@ -1,2 +1,2 @@
 ﻿# python-basic
-# edited on 25 dec.....
+# i had shown my roadmap how i learn python concepts
