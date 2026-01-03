@@ -1,8 +1,8 @@
 # # list is built in datatype that stores the data
-# mark=[12,324,2414,421]
-# print(mark[1:3])
-# print(mark[1])
-# print(type(mark))
+mark=[12,324,2414,421]
+print(mark[1:3])
+print(mark[1])
+print(type(mark))
 
 # # not like array ie can store of any datatype
 # student=["hsihsir",12,'kawaasoti']
@@ -50,7 +50,7 @@
 # others
 # list.pop(index)
 # list.remove(val)
-"""hehhehe"""
+# """hehhehe"""
 
 
 

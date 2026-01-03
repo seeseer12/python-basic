@@ -7,8 +7,8 @@
 
 
 # concatenation
-a,b='shi','shir'
-print(a+b)
+# a,b='shi','shir'
+# print(a+b)
 
 
 # # length of string -> spaces also count
@@ -20,10 +20,10 @@ print(a+b)
 
 
 # indexing starts from index 0 only read not changing
-# a='shishir bhusal'
-# print(a[0])
-# a[3]='s'   invalid
-
+        # a='shishir bhusal'
+        # print(a[0])
+        # a[3]='s'   
+        # print(a[3])  -> invalid as strings are immutable
 
 
 
@@ -36,8 +36,8 @@ print(a+b)
 
 
 # negative index -> index -1 of last
-# str="apple ball"
-# print(str[-3:])
+str="apple ball"
+print(str[-3:])
 
 # some strings functions
 str1="haha i am a ai/ml engineer "
