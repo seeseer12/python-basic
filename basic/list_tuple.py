@@ -1,8 +1,8 @@
 # # list is built in datatype that stores the data
-mark=[12,324,2414,421]
-print(mark[1:3])
-print(mark[1])
-print(type(mark))
+# mark=[12,324,2414,421]
+# print(mark[1:3])
+# print(mark[1])
+# print(type(mark))
 
 # # not like array ie can store of any datatype
 # student=["hsihsir",12,'kawaasoti']
@@ -12,7 +12,7 @@ print(type(mark))
 # IMP: strings are immutable not changle but allowed in list's strings
 # hi=['shshir',12,'sjhd']
 # print(hi[0])
-# hi[0]="cab replaced muttable"
+# hi[0]="can replaced muttable"
 # print(hi[0])
     #   in strings not possible inmutable i.e
     

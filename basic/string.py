@@ -36,8 +36,8 @@
 
 
 # negative index -> index -1 of last
-str="apple ball"
-print(str[-3:])
+# str="apple ball"
+# print(str[-3:])
 
 # some strings functions
 str1="haha i am a ai/ml engineer "

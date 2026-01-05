@@ -35,8 +35,8 @@ print(add(2,3,4,5))
 # lambda function
 # they are small anonymous function
 # sum=lambda a,b: a+b
-avg=lambda *args: sum(args)/len(args)
-print(avg(2,3,4,5,6))
+# avg=lambda *args: sum(args)/len(args)
+# print(avg(2,3,4,5,6))
 # print(sum(2,3))
 
 
