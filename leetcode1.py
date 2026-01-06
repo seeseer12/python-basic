@@ -1,0 +1,17 @@
+# two sum problem 
+def two_sum(nums, target):
+    num_map = {}
+    for i, num in enumerate(nums):
+        complement = target - num
+        if complement in num_map:
+            return [num_map[complement], i]
+        num_map[num] = i
+    return []
+
+# time complexity: O(n)
+# space complexity: O(n)
+# Example usage:    
+nums = [2, 7, 11, 15]
+target = 9
+result = two_sum(nums, target)
+print(result)  # Output: [0, 1]
