@@ -35,24 +35,28 @@ class LinkedList:
             length=length.next
         return count
     
-    # def delete(self,index):
-    #     delete=self.head
-    #     count=0
-    #     if delete is None:
-    #         print("List is empty, nothing to delete")
-    #         return
-    #     if index==0:
-    #         self.head=self.head.next
-    #         delete=None
-    #         return
-            
-    #     while index is not count:
-    #         prev=delete
-    #         delete=delete.next
-    #         count+=1    
-    #     prev.next=delete.next
-    #     delete=None
-    #     return
+    def delete(self,position):
+        if self.head is None:
+            print("List is empty, nothing to delete")
+            return
+        temp=self.head
+        if position==0:
+            self.head=temp.next
+            temp=None
+            print("Head node deleted")
+            return
+        for i in range(position-1):
+            temp=temp.next
+            if temp is None:
+                break
+        if temp is None or temp.next is None:
+            print("Position out of bounds, nothing to delete")
+            return
+        next_node=temp.next.next
+        temp.next=None
+        temp.next=next_node
+        print(f"Node at position {position} deleted")
+    
 
        
 
@@ -69,5 +73,5 @@ l1.show()
 print("Length of linked list:", l1.length())
 l1.delete(0)
 l1.show()
-l1.delete(2)
+l1.delete(3)
 l1.show()
