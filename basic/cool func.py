@@ -1,16 +1,26 @@
-def add(*args):
-    return sum(args)
+# def add(*args):
+#     return sum(args)
 
-print(add(2,3))
-print(add(2,3,4,5))
-
-
+# print(add(2,3))
+# print(add(2,3,4,5))
 
 
 
 
 
 
+
+# enumerate
+# returns the index with value
+# builtin py function
+# eg:
+
+a=["I","Had","a","crush",'on','her','since','2025 juune']
+for x,y in enumerate(a):
+    print(x,y)
+
+for date,year in enumerate(range(1,1000)):
+    print(date,year)
 
 
 

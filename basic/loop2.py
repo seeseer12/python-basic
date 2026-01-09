@@ -15,11 +15,13 @@
 #     print(i)
 #     # i+=1
 #     print('hello ')
-# print(range(5))
-list=list(range(10))
-for shishir in list:
-    if(shishir==55):
-        print("its true")
-        break
-else:
-        print("not found")    
+print(range(5))
+for i in range(5):
+    print(i)
+# list=list(range(10))
+# for shishir in list:
+#     if(shishir==55):
+#         print("its true")
+#         break
+# else:
+#         print("not found")    
