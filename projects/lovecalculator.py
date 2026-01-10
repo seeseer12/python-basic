@@ -4,7 +4,7 @@ def love_calculator(name1, name2):
     name1_clean = name1.lower().strip()
     name2_clean = name2.lower().strip()
 
-    # Correct binary of "shishir"
+    
     secret_binary = "01110011011010000110100101110011011010000110100101110010"
 
     def to_binary(s):
@@ -12,7 +12,7 @@ def love_calculator(name1, name2):
 
     for n in [name1_clean, name2_clean]:
         if to_binary(n) == secret_binary:
-            return 100  # magic 100% for hidden name
+            return 100  
 
     # Normal fun calculation
     combined = name1_clean + name2_clean

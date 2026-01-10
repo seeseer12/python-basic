@@ -1,0 +1,26 @@
+#3
+
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        max_len=0
+        for i in range(len(s)):
+            a=set()
+            c=0
+            for j in range(i,len(s)):
+                if s[j] in a:
+                    break
+                else:
+                    c+=1
+                    a.add(s[j])
+            if c>=max_len:
+                max_len=c
+        return max_len
+    
+                
+
+
+
+
+o=Solution()
+x=o.lengthOfLongestSubstring("shishir")
+print(f"longest substring in shishir is {x}")
