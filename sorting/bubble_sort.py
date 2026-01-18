@@ -1,9 +1,14 @@
-a=[1,4,3,523,23,12,34,56,78,90,11]
 def bubble_sort(arr):
-    n=len(arr)
-    for i in range(0,n):
-        for j in range(0,n-1-i):
-            if arr[j]>arr[j+1]:
-                arr[j],arr[j+1]=arr[j+1],arr[j]
+    n = len(arr)
+
+    for i in range(n):
+        for j in range(0, n - i - 1):
+            if arr[j] > arr[j + 1]:
+                # swap
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+
     return arr
-print(bubble_sort(a))
+
+a=[1,4,23,5,3]
+bubble_sort(a)
+print(a)
