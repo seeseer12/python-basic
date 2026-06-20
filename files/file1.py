@@ -1,0 +1,5 @@
+a=open("see.csv","r")
+print(a.readable())
+print(a.readline(),end="")
+print(a.readline(),end="")
+print(a.readline(),end="")

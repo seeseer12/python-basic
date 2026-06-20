@@ -1,0 +1,7 @@
+try:
+    with open("hey.csv", "r") as a:
+        print(a.read())
+
+except FileNotFoundError:
+    with open("python-basic/files/hey.csv", "r") as a:
+        print(a.read())
